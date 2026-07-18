@@ -575,14 +575,11 @@ ul { list-style: none; }
 .apply { padding: 96px 0; }
 
 .apply-cta {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
+  text-align: center;
 }
 
 .apply-security {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
   align-items: center;
   gap: 10px;
@@ -590,7 +587,8 @@ ul { list-style: none; }
   background: var(--white);
   border: 1px solid var(--gray-100);
   border-radius: 4px;
-  padding: 16px 20px;
+  padding: 16px 24px;
+  margin: 0 auto 24px;
   text-align: center;
 }
 .apply-security svg {
