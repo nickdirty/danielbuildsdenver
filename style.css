@@ -633,12 +633,18 @@ ul { list-style: none; }
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: flex-start;
 }
 
 .form-row {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  width: 100%;
+}
+
+.contact-form .form-group {
+  width: 100%;
 }
 
 .form-group {
