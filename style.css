@@ -579,19 +579,17 @@ ul { list-style: none; }
 }
 
 .apply-security {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  max-width: 520px;
+  max-width: 480px;
+  margin: 0 auto 24px;
   background: var(--white);
   border: 1px solid var(--gray-100);
   border-radius: 4px;
-  padding: 16px 24px;
-  margin: 0 auto 24px;
+  padding: 20px 24px;
   text-align: center;
 }
 .apply-security svg {
+  display: block;
+  margin: 0 auto 10px;
   color: var(--accent);
 }
 .apply-security p {
